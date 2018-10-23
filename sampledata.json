@@ -1,0 +1,1276 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "id": "way/94551277",
+            "properties": {
+                "type": "way",
+                "id": "94551277",
+                "tags": {
+                    "buildingpart": "hall",
+                    "height": "3.9",
+                    "name": "012"
+                },
+                "relations": [
+                    {
+                        "role": "buildingpart",
+                        "rel": "1370728",
+                        "reltags": {
+                            "height": "4",
+                            "level": "0",
+                            "name": "Hall",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -80.73282837867737,
+                        35.306155636780765
+                    ],
+                    [
+                        -80.73188155889511,
+                        35.306160014550784
+                    ],
+                    [
+                        -80.73187083005905,
+                        35.30593674797769
+                    ],
+                    [
+                        -80.73194861412047,
+                        35.30593674797769
+                    ],
+                    [
+                        -80.7319512963295,
+                        35.305862325649734
+                    ],
+                    [
+                        -80.73133438825607,
+                        35.30585357007723
+                    ],
+                    [
+                        -80.73133170604706,
+                        35.30551647981565
+                    ],
+                    [
+                        -80.732042491436,
+                        35.30551866871799
+                    ],
+                    [
+                        -80.73203712701797,
+                        35.30548802407994
+                    ],
+                    [
+                        -80.73213368654251,
+                        35.30548364627354
+                    ],
+                    [
+                        -80.73213368654251,
+                        35.30545300162224
+                    ],
+                    [
+                        -80.73225438594818,
+                        35.30545519052628
+                    ],
+                    [
+                        -80.73225438594818,
+                        35.30548145737026
+                    ],
+                    [
+                        -80.73272109031677,
+                        35.30548802407994
+                    ],
+                    [
+                        -80.73272377252579,
+                        35.30558214685988
+                    ],
+                    [
+                        -80.73277741670609,
+                        35.30558652466094
+                    ],
+                    [
+                        -80.73278278112411,
+                        35.30565219164832
+                    ],
+                    [
+                        -80.7328525185585,
+                        35.30565438054696
+                    ],
+                    [
+                        -80.73284983634949,
+                        35.30584481450379
+                    ],
+                    [
+                        -80.73286324739456,
+                        35.30588859236153
+                    ],
+                    [
+                        -80.73284447193146,
+                        35.305919236847856
+                    ],
+                    [
+                        -80.73288202285767,
+                        35.30600460356999
+                    ],
+                    [
+                        -80.73286861181259,
+                        35.306118425726034
+                    ],
+                    [
+                        -80.73282837867737,
+                        35.306155636780765
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/94551279",
+            "properties": {
+                "type": "way",
+                "id": "94551279",
+                "stroke": "#555555",
+                "stroke-width": 2,
+                "stroke-opacity": 1,
+                "Name": "Peetes Cafe",
+                "tags": {
+                    "buildingpart": "room",
+                    "height": "2.2"
+                },
+                "relations": [
+                    {
+                        "role": "buildingpart",
+                        "rel": "1370727",
+                        "reltags": {
+                            "height": "3",
+                            "level": "0",
+                            "level:usage": "academic",
+                            "name": "Peetes Cafe",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -80.73284983634949,
+                        35.30581854777777
+                    ],
+                    [
+                        -80.73259502649307,
+                        35.305814169989276
+                    ],
+                    [
+                        -80.73258697986603,
+                        35.30548583517677
+                    ],
+                    [
+                        -80.73272109031677,
+                        35.30548802407994
+                    ],
+                    [
+                        -80.73272913694382,
+                        35.30558433576043
+                    ],
+                    [
+                        -80.73277473449706,
+                        35.30559090246174
+                    ],
+                    [
+                        -80.73278278112411,
+                        35.30565438054696
+                    ],
+                    [
+                        -80.73285788297653,
+                        35.3056609472426
+                    ],
+                    [
+                        -80.73284983634949,
+                        35.30582949224797
+                    ],
+                    [
+                        -80.73284983634949,
+                        35.30581854777777
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/94551280",
+            "properties": {
+                "type": "way",
+                "id": "94551280",
+                "stroke": "#555555",
+                "stroke-width": 2,
+                "stroke-opacity": 1,
+                "fill": "#555555",
+                "fill-opacity": 0.5,
+                "Title": "Entrance 1 - Floor 0",
+                "tags": {
+                    "buildingpart": "room",
+                    "height": "3",
+                    "indoor": "yes",
+                    "name": "116"
+                },
+                "relations": [
+                    {
+                        "role": "buildingpart",
+                        "rel": "1370725",
+                        "reltags": {
+                            "height": "4",
+                            "level": "0",
+                            "level:usage": "academic",
+                            "name": "Entrance 1 - Floor 0",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -80.73199152946472,
+                            35.30610967018124
+                        ],
+                        [
+                            -80.73188424110413,
+                            35.30610967018124
+                        ],
+                        [
+                            -80.73188424110413,
+                            35.306155636780765
+                        ],
+                        [
+                            -80.73199152946472,
+                            35.306155636780765
+                        ],
+                        [
+                            -80.73199152946472,
+                            35.30610967018124
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/94551281",
+            "properties": {
+                "type": "way",
+                "id": "94551281",
+                "stroke": "#555555",
+                "stroke-width": 2,
+                "stroke-opacity": 1,
+                "fill": "#555555",
+                "fill-opacity": 0.5,
+                "Title": "G48",
+                "tags": {
+                    "buildingpart": "room",
+                    "height": "2.2"
+                },
+                "relations": [
+                    {
+                        "role": "buildingpart",
+                        "rel": "1370727",
+                        "reltags": {
+                            "height": "3",
+                            "level": "0",
+                            "level:usage": "academic",
+                            "name": "Untergeschoss",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -80.73204517364502,
+                            35.30593674797769
+                        ],
+                        [
+                            -80.73187083005905,
+                            35.30593674797769
+                        ],
+                        [
+                            -80.73187083005905,
+                            35.30601117023718
+                        ],
+                        [
+                            -80.73204517364502,
+                            35.30601117023718
+                        ],
+                        [
+                            -80.73204517364502,
+                            35.30593674797769
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/94551282",
+            "properties": {
+                "type": "way",
+                "id": "94551282",
+                "stroke": "#555555",
+                "stroke-width": 2,
+                "stroke-opacity": 1,
+                "fill": "#555555",
+                "fill-opacity": 0.5,
+                "Title": "Women's RestRoom",
+                "tags": {
+                    "buildingpart": "room",
+                    "height": "3",
+                    "indoor": "yes",
+                    "name": "124"
+                },
+                "relations": [
+                    {
+                        "role": "buildingpart",
+                        "rel": "1370725",
+                        "reltags": {
+                            "height": "4",
+                            "level": "0",
+                            "level:usage": "academic",
+                            "name": "1. Obergeschoss",
+                            "type": "level"
+                        }
+                    }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -80.7322034239769,
+                            35.306026492458564
+                        ],
+                        [
+                            -80.73212295770645,
+                            35.306026492458564
+                        ],
+                        [
+                            -80.73212295770645,
+                            35.30605932578038
+                        ],
+                        [
+                            -80.7322034239769,
+                            35.30605932578038
+                        ],
+                        [
+                            -80.7322034239769,
+                            35.306026492458564
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/94551283",
+            "properties": {
+              "type": "way",
+              "id": "94551283",
+                "stroke": "#555555",
+                "stroke-width": 2,
+                "stroke-opacity": 1,
+                "fill": "#555555",
+                "fill-opacity": 0.5,
+                "Title ": "Family RestRoom",
+                "tags": {
+                  "buildingpart": "room",
+                  "height": "2.2"
+                },
+                "relations": [
+                  {
+                    "role": "buildingpart",
+                    "rel": "1370727",
+                    "reltags": {
+                      "height": "3",
+                      "level": "0",
+                      "level:usage": "academic",
+                      "name": "Untergeschoss",
+                      "type": "level"
+                    }
+                  }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -80.7321846485138,
+                            35.30596082577502
+                        ],
+                        [
+                            -80.73214709758759,
+                            35.30596082577502
+                        ],
+                        [
+                            -80.73214709758759,
+                            35.306019925792626
+                        ],
+                        [
+                            -80.7321846485138,
+                            35.306019925792626
+                        ],
+                        [
+                            -80.7321846485138,
+                            35.30596082577502
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/94551284",
+            "properties": {
+              "type": "way",
+              "id": "94551284",
+                "stroke": "#555555",
+                "stroke-width": 2,
+                "stroke-opacity": 1,
+                "fill": "#555555",
+                "fill-opacity": 0.5,
+                "Title": "Mens RestRoom",
+                "tags": {
+                  "buildingpart": "room",
+                  "height": "3",
+                  "indoor": "yes",
+                  "name": "213"
+                },
+                "relations": [
+                  {
+                    "role": "buildingpart",
+                    "rel": "1370726",
+                    "reltags": {
+                      "height": "4",
+                      "level": "0",
+                      "level:usage": "academic",
+                      "name": "Dachgeschoss",
+                      "type": "level"
+                    }
+                  }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -80.73220878839493,
+                            35.30593018130445
+                        ],
+                        [
+                            -80.73212027549744,
+                            35.30593018130445
+                        ],
+                        [
+                            -80.73212027549744,
+                            35.30595644799421
+                        ],
+                        [
+                            -80.73220878839493,
+                            35.30595644799421
+                        ],
+                        [
+                            -80.73220878839493,
+                            35.30593018130445
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/94551285",
+            "properties": {
+                "type": "way",
+                "id": "94551285",
+                "stroke": "#555555",
+                "stroke-width": 2,
+                "stroke-opacity": 1,
+                "fill": "#555555",
+                "fill-opacity": 0.5,
+                "Title": "Writing Resource Center, G 32",
+                "tags": {
+                  "buildingpart": "room",
+                  "height": "3",
+                  "indoor": "yes",
+                  "name": "211"
+                },
+                "relations": [
+                  {
+                    "role": "buildingpart",
+                    "rel": "1370726",
+                    "reltags": {
+                      "height": "4",
+                      "level": "0",
+                      "level:usage": "academic",
+                      "name": "Dachgeschoss",
+                      "type": "level"
+                    }
+                  }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -80.73273986577988,
+                            35.30598490356517
+                        ],
+                        [
+                            -80.73268353939056,
+                            35.30598490356517
+                        ],
+                        [
+                            -80.73268353939056,
+                            35.30603743690065
+                        ],
+                        [
+                            -80.73273986577988,
+                            35.30603743690065
+                        ],
+                        [
+                            -80.73273986577988,
+                            35.30598490356517
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/94551286",
+            "properties": {
+              "type": "way",
+              "id": "94551286",
+                "stroke": "#555555",
+                "stroke-width": 2,
+                "stroke-opacity": 1,
+                "fill": "#555555",
+                "fill-opacity": 0.5,
+                "Title": "G 31",
+                "tags": {
+                  "buildingpart": "room",
+                  "height": "2.2"
+                },
+                "relations": [
+                  {
+                    "role": "buildingpart",
+                    "rel": "1370727",
+                    "reltags": {
+                      "height": "3",
+                      "level": "-1",
+                      "level:usage": "academic",
+                      "name": "Untergeschoss",
+                      "type": "level"
+                    }
+                  }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -80.73273986577988,
+                            35.3059214257393
+                        ],
+                        [
+                            -80.7326889038086,
+                            35.3059214257393
+                        ],
+                        [
+                            -80.7326889038086,
+                            35.30597833689585
+                        ],
+                        [
+                            -80.73273986577988,
+                            35.30597833689585
+                        ],
+                        [
+                            -80.73273986577988,
+                            35.3059214257393
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/94551287",
+            "properties": {
+              "type": "way",
+              "id": "94551287",
+                "stroke": "#555555",
+                "stroke-width": 2,
+                "stroke-opacity": 1,
+                "fill": "#555555",
+                "fill-opacity": 0.5,
+                "Title": "G 33",
+                "tags": {
+                  "buildingpart": "hall",
+                  "height": "3.8",
+                  "indoor": "yes"
+                },
+                "relations": [
+                  {
+                    "role": "buildingpart",
+                    "rel": "1370726",
+                    "reltags": {
+                      "height": "4",
+                      "level": "0",
+                      "level:usage": "academic",
+                      "name": "Dachgeschoss",
+                      "type": "level"
+                    }
+                  }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -80.73274791240692,
+                            35.30604619245326
+                        ],
+                        [
+                            -80.73267549276352,
+                            35.30604619245326
+                        ],
+                        [
+                            -80.73267549276352,
+                            35.3060943479756
+                        ],
+                        [
+                            -80.73274791240692,
+                            35.3060943479756
+                        ],
+                        [
+                            -80.73274791240692,
+                            35.30604619245326
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/94551289",
+            "properties": {
+              "type": "way",
+              "id": "94551289",
+                "stroke": "#555555",
+                "stroke-width": 2,
+                "stroke-opacity": 1,
+                "fill": "#555555",
+                "fill-opacity": 0.5,
+                "Title": "University Speaking Center G 35",
+                "fill-color": "#F7455D",
+                "tags": {
+                  "buildingpart": "room",
+                  "height": "3",
+                  "name": "009"
+                },
+                "relations": [
+                  {
+                    "role": "buildingpart",
+                    "rel": "1370728",
+                    "reltags": {
+                      "height": "4",
+                      "level": "0",
+                      "name": "Erdgeschoss",
+                      "type": "level"
+                    }
+                  }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -80.73251724243164,
+                            35.30602430357
+                        ],
+                        [
+                            -80.73238849639893,
+                            35.30602430357
+                        ],
+                        [
+                            -80.73238849639893,
+                            35.306087781315156
+                        ],
+                        [
+                            -80.73251724243164,
+                            35.306087781315156
+                        ],
+                        [
+                            -80.73251724243164,
+                            35.30602430357
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/94551291",
+            "properties": {
+              "type": "way",
+              "id": "94551291",
+                "stroke": "#555555",
+                "stroke-width": 2,
+                "stroke-opacity": 1,
+                "fill": "#555555",
+                "fill-opacity": 0.5,
+                "Title": "G34",
+                "tags": {
+                  "buildingpart": "room",
+                  "height": "3",
+                  "indoor": "yes",
+                  "name": "119"
+                },
+                "relations": [
+                  {
+                    "role": "buildingpart",
+                    "rel": "1370725",
+                    "reltags": {
+                      "height": "4",
+                      "level": "0",
+                      "level:usage": "academic",
+                      "name": "1. Obergeschoss",
+                      "type": "level"
+                    }
+                  }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -80.73251724243164,
+                            35.305947692431914
+                        ],
+                        [
+                            -80.73238581418991,
+                            35.305947692431914
+                        ],
+                        [
+                            -80.73238581418991,
+                            35.306013359126126
+                        ],
+                        [
+                            -80.73251724243164,
+                            35.306013359126126
+                        ],
+                        [
+                            -80.73251724243164,
+                            35.305947692431914
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/94551292",
+            "properties": {
+              "type": "way",
+              "id": "94551292",
+                "stroke": "#555555",
+                "stroke-width": 2,
+                "stroke-opacity": 1,
+                "fill": "#555555",
+                "fill-opacity": 0.5,
+                "Title": "G 36",
+                "tags": {
+                  "buildingpart": "corridor",
+                  "height": "2.2"
+                },
+                "relations": [
+                  {
+                    "role": "buildingpart",
+                    "rel": "1370727",
+                    "reltags": {
+                      "height": "3",
+                      "level": "0",
+                      "level:usage": "academic",
+                      "name": "Untergeschoss",
+                      "type": "level"
+                    }
+                  }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -80.73237776756287,
+                            35.306017736903854
+                        ],
+                        [
+                            -80.73233485221863,
+                            35.306017736903854
+                        ],
+                        [
+                            -80.73233485221863,
+                            35.30608340354122
+                        ],
+                        [
+                            -80.73237776756287,
+                            35.30608340354122
+                        ],
+                        [
+                            -80.73237776756287,
+                            35.306017736903854
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/94551293",
+            "properties": {
+              "type": "way",
+              "id": "94551293",
+                "stroke": "#555555",
+                "stroke-width": 2,
+                "stroke-opacity": 1,
+                "fill": "#555555",
+                "fill-opacity": 0.5,
+                "Title": "G 37",
+                "tags": {
+                  "buildingpart": "room",
+                  "height": "3",
+                  "indoor": "yes",
+                  "name": "117"
+                },
+                "relations": [
+                  {
+                    "role": "buildingpart",
+                    "rel": "1370725",
+                    "reltags": {
+                      "height": "4",
+                      "level": "0",
+                      "level:usage": "academic",
+                      "name": "1. Obergeschoss",
+                      "type": "level"
+                    }
+                  }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -80.73237508535385,
+                            35.3059433146504
+                        ],
+                        [
+                            -80.73233485221863,
+                            35.3059433146504
+                        ],
+                        [
+                            -80.73233485221863,
+                            35.306013359126126
+                        ],
+                        [
+                            -80.73237508535385,
+                            35.306013359126126
+                        ],
+                        [
+                            -80.73237508535385,
+                            35.3059433146504
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/94551294",
+            "properties": {
+              "type": "way",
+              "id": "94551294",
+                "Title": "Entrance 1 - floor 0",
+                "tags": {
+                  "buildingpart": "room",
+                  "height": "2.2"
+                },
+                "relations": [
+                  {
+                    "role": "buildingpart",
+                    "rel": "1370727",
+                    "reltags": {
+                      "height": "3",
+                      "level": "0",
+                      "level:usage": "academic",
+                      "name": "Untergeschoss",
+                      "type": "level"
+                    }
+                  }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -80.73194861412047,
+                    35.306131559041425
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/94551301",
+            "properties": {
+              "type": "way",
+              "id": "94551301",
+                "Title": "G 48",
+                "tags": {
+                  "buildingpart": "room",
+                  "height": "3",
+                  "indoor": "yes",
+                  "name": "212"
+                },
+                "relations": [
+                  {
+                    "role": "buildingpart",
+                    "rel": "1370726",
+                    "reltags": {
+                      "height": "4",
+                      "level": "0",
+                      "level:usage": "academic",
+                      "name": "Dachgeschoss",
+                      "type": "level"
+                    }
+                  }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -80.73195934295654,
+                    35.30597614800595
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/94551302",
+            "properties": {
+              "type": "way",
+              "id": "94551302",
+                "Title": "Peet's Cafe",
+                "tags": {
+                  "buildingpart": "room",
+                  "height": "2.2"
+                },
+                "relations": [
+                  {
+                    "role": "buildingpart",
+                    "rel": "1370727",
+                    "reltags": {
+                      "height": "3",
+                      "level": "0",
+                      "level:usage": "academic",
+                      "name": "Untergeschoss",
+                      "type": "level"
+                    }
+                  }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -80.73270499706268,
+                    35.30570034740518
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/94551303",
+            "properties": {
+              "type": "way",
+              "id": "94551303",
+              "tags": {
+                "buildingpart": "corridor",
+                "height": "3",
+                "indoor": "yes"
+              },
+              "relations": [
+                {
+                  "role": "buildingpart",
+                  "rel": "1370726",
+                  "reltags": {
+                    "height": "4",
+                    "level": "2",
+                    "level:usage": "academic",
+                    "name": "Dachgeschoss",
+                    "type": "level"
+                  }
+                }
+              ],
+              "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -80.73266744613647,
+                            35.30596082577502
+                        ],
+                        [
+                            -80.73262989521027,
+                            35.30596082577502
+                        ],
+                        [
+                            -80.73262989521027,
+                            35.306074647992666
+                        ],
+                        [
+                            -80.73266744613647,
+                            35.306074647992666
+                        ],
+                        [
+                            -80.73266744613647,
+                            35.30596082577502
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/94551305",
+            "properties": {
+              "type": "way",
+              "id": "94551305",
+                "Title": "Stairs 1 - Floor 0",
+                "tags": {
+                  "buildingpart": "corridor",
+                  "height": "3"
+                },
+                "relations": [
+                  {
+                    "role": "buildingpart",
+                    "rel": "1370728",
+                    "reltags": {
+                      "height": "4",
+                      "level": "0",
+                      "name": "Erdgeschoss",
+                      "type": "level"
+                    }
+                  }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -80.73264867067337,
+                    35.30600898134817
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/94551306",
+            "properties": {
+              "type": "way",
+              "id": "94551306",
+                "stroke": "#555555",
+                "stroke-width": 2,
+                "stroke-opacity": 1,
+                "fill": "#555555",
+                "fill-opacity": 0.5,
+                "Title": "Facility Management Service",
+                "tags": {
+                  "buildingpart": "room",
+                  "height": "3",
+                  "indoor": "yes",
+                  "name": "120"
+                },
+                "relations": [
+                  {
+                    "role": "buildingpart",
+                    "rel": "1370725",
+                    "reltags": {
+                      "height": "4",
+                      "level": "0",
+                      "level:usage": "academic",
+                      "name": "1. Obergeschoss",
+                      "type": "level"
+                    }
+                  }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -80.73203444480896,
+                            35.305857947863586
+                        ],
+                        [
+                            -80.73195397853851,
+                            35.305857947863586
+                        ],
+                        [
+                            -80.73195397853851,
+                            35.305903914606134
+                        ],
+                        [
+                            -80.73203444480896,
+                            35.305903914606134
+                        ],
+                        [
+                            -80.73203444480896,
+                            35.305857947863586
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/94551309",
+            "properties": {
+              "type": "way",
+              "id": "94551309",
+                "stroke": "#555555",
+                "stroke-width": 2,
+                "stroke-opacity": 1,
+                "fill": "#555555",
+                "fill-opacity": 0.5,
+                "Title": "Stairs 2 - Floor 0",
+                "tags": {
+                  "buildingpart": "room",
+                  "height": "3",
+                  "indoor": "yes",
+                  "name": "118"
+                },
+                "relations": [
+                  {
+                    "role": "buildingpart",
+                    "rel": "1370725",
+                    "reltags": {
+                      "height": "4",
+                      "level": "1",
+                      "level:usage": "academic",
+                      "name": "1. Obergeschoss",
+                      "type": "level"
+                    }
+                  }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -80.73152750730515,
+                            35.305724425272864
+                        ],
+                        [
+                            -80.73134243488312,
+                            35.305724425272864
+                        ],
+                        [
+                            -80.73134243488312,
+                            35.305811981094934
+                        ],
+                        [
+                            -80.73152750730515,
+                            35.305811981094934
+                        ],
+                        [
+                            -80.73152750730515,
+                            35.305724425272864
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "way/94551311",
+            "properties": {
+              "type": "way",
+              "id": "94551311",
+                "Title": "Stairs 2 - Floor 0",
+                "tags": {
+                  "buildingpart": "room",
+                  "height": "2.2"
+                },
+                "relations": [
+                  {
+                    "role": "buildingpart",
+                    "rel": "1370727",
+                    "reltags": {
+                      "height": "3",
+                      "level": "0",
+                      "level:usage": "academic",
+                      "name": "Untergeschoss",
+                      "type": "level"
+                    }
+                  }
+                ],
+                "meta": {}
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -80.73146045207977,
+                    35.30576163650881
+                ]
+            }
+        }
+    ]
+}
