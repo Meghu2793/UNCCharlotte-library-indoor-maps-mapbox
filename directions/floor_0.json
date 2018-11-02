@@ -1,0 +1,46 @@
+{
+  "id": "route_floor_0",
+  "type": "line",
+  "source": {
+    "type": "geojson",
+    "data": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "source": "Stairs 1 - Floor 0",
+          "destination": "Coffee Vending Machine",
+          "properties": {},
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [
+                -80.73264867067337,
+                35.30600898134817
+              ],
+              [
+                -80.73265403509139,
+                35.305866703435626
+              ],
+              [
+                -80.73244750499725,
+                35.305860136756685
+              ],
+              [
+                -80.73244750499725,
+                35.305715669685426
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    "layout": {
+      "line-join": "round",
+      "line-cap": "round"
+    },
+    "paint": {
+      "line-color": "#888",
+      "line-width": 8
+    }
+  }
+}

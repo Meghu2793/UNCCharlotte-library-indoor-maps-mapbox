@@ -1,0 +1,583 @@
+{
+  "layer": {
+    "id": "floor_1",
+    "type": "line",
+    "source": {
+      "type": "geojson",
+      "data": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "LineString",
+              "coordinates": [
+                [
+                  -80.73284715414047,
+                  35.305811981094934
+                ],
+                [
+                  -80.73262184858322,
+                  35.305807603306086
+                ],
+                [
+                  -80.73262453079224,
+                  35.30548583517677
+                ]
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "stroke": "#555555",
+              "stroke-width": 2,
+              "stroke-opacity": 1,
+              "fill": "#555555",
+              "fill-opacity": 0.5,
+              "title": "Entrance-Floor2"
+            },
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    -80.73226243257523,
+                    35.30545081271812
+                  ],
+                  [
+                    -80.73213100433348,
+                    35.30545081271812
+                  ],
+                  [
+                    -80.73213100433348,
+                    35.30550991310829
+                  ],
+                  [
+                    -80.73226243257523,
+                    35.30550991310829
+                  ],
+                  [
+                    -80.73226243257523,
+                    35.30545081271812
+                  ]
+                ]
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "stroke": "#555555",
+              "stroke-width": 2,
+              "stroke-opacity": 1,
+              "fill": "#555555",
+              "fill-opacity": 0.5,
+              "title": "Reception desk"
+            },
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    -80.73206126689911,
+                    35.30554274663974
+                  ],
+                  [
+                    -80.73198884725569,
+                    35.30554274663974
+                  ],
+                  [
+                    -80.73198884725569,
+                    35.30563468045688
+                  ],
+                  [
+                    -80.73206126689911,
+                    35.30563468045688
+                  ],
+                  [
+                    -80.73206126689911,
+                    35.30554274663974
+                  ]
+                ]
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "stroke": "#555555",
+              "stroke-width": 2,
+              "stroke-opacity": 1,
+              "fill": "#555555",
+              "fill-opacity": 0.5,
+              "title": "stairs"
+            },
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    -80.73205322027206,
+                    35.30585357007723
+                  ],
+                  [
+                    -80.73195934295654,
+                    35.30585357007723
+                  ],
+                  [
+                    -80.73195934295654,
+                    35.305932370195585
+                  ],
+                  [
+                    -80.73205322027206,
+                    35.305932370195585
+                  ],
+                  [
+                    -80.73205322027206,
+                    35.30585357007723
+                  ]
+                ]
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    -80.73275595903395,
+                    35.30607683687989
+                  ],
+                  [
+                    -80.73268085718155,
+                    35.30607683687989
+                  ],
+                  [
+                    -80.73268085718155,
+                    35.306160014550784
+                  ],
+                  [
+                    -80.73275595903395,
+                    35.306160014550784
+                  ],
+                  [
+                    -80.73275595903395,
+                    35.30607683687989
+                  ]
+                ]
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    -80.73275595903395,
+                    35.30600022579155
+                  ],
+                  [
+                    -80.73268353939056,
+                    35.30600022579155
+                  ],
+                  [
+                    -80.73268353939056,
+                    35.306072459105366
+                  ],
+                  [
+                    -80.73275595903395,
+                    35.306072459105366
+                  ],
+                  [
+                    -80.73275595903395,
+                    35.30600022579155
+                  ]
+                ]
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    -80.73267012834549,
+                    35.305987092454835
+                  ],
+                  [
+                    -80.73257356882094,
+                    35.305987092454835
+                  ],
+                  [
+                    -80.73257356882094,
+                    35.306160014550784
+                  ],
+                  [
+                    -80.73267012834549,
+                    35.306160014550784
+                  ],
+                  [
+                    -80.73267012834549,
+                    35.305987092454835
+                  ]
+                ]
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    -80.73255747556686,
+                    35.306089970202024
+                  ],
+                  [
+                    -80.73244750499725,
+                    35.306089970202024
+                  ],
+                  [
+                    -80.73244750499725,
+                    35.30615782566583
+                  ],
+                  [
+                    -80.73255747556686,
+                    35.30615782566583
+                  ],
+                  [
+                    -80.73255747556686,
+                    35.306089970202024
+                  ]
+                ]
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    -80.7325091958046,
+                    35.305989281344445
+                  ],
+                  [
+                    -80.7324743270874,
+                    35.305989281344445
+                  ],
+                  [
+                    -80.7324743270874,
+                    35.306065892443144
+                  ],
+                  [
+                    -80.7325091958046,
+                    35.306065892443144
+                  ],
+                  [
+                    -80.7325091958046,
+                    35.305989281344445
+                  ]
+                ]
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    -80.73246359825134,
+                    35.30597177022599
+                  ],
+                  [
+                    -80.73240458965302,
+                    35.30597177022599
+                  ],
+                  [
+                    -80.73240458965302,
+                    35.306087781315156
+                  ],
+                  [
+                    -80.73246359825134,
+                    35.306087781315156
+                  ],
+                  [
+                    -80.73246359825134,
+                    35.30597177022599
+                  ]
+                ]
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "LineString",
+              "coordinates": [
+                [
+                  -80.73276668787003,
+                  35.306155636780765
+                ],
+                [
+                  -80.73276400566101,
+                  35.305932370195585
+                ],
+                [
+                  -80.73284447193146,
+                  35.305932370195585
+                ]
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    -80.73241531848907,
+                    35.305702536302526
+                  ],
+                  [
+                    -80.7323321700096,
+                    35.305702536302526
+                  ],
+                  [
+                    -80.7323321700096,
+                    35.30587108122127
+                  ],
+                  [
+                    -80.73241531848907,
+                    35.30587108122127
+                  ],
+                  [
+                    -80.73241531848907,
+                    35.305702536302526
+                  ]
+                ]
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    -80.73228389024734,
+                    35.3056478138508
+                  ],
+                  [
+                    -80.73220074176788,
+                    35.3056478138508
+                  ],
+                  [
+                    -80.73220074176788,
+                    35.305704725199824
+                  ],
+                  [
+                    -80.73228389024734,
+                    35.305704725199824
+                  ],
+                  [
+                    -80.73228389024734,
+                    35.3056478138508
+                  ]
+                ]
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "points": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "marker-color": "#7e7e7e",
+          "marker-size": "medium",
+          "marker-symbol": "",
+          "Title": "Halton Reading Room"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -80.73281228542328,
+            35.30604181467709
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "marker-color": "#7e7e7e",
+          "marker-size": "medium",
+          "marker-symbol": "",
+          "Title": "Graduate & Silent Study"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -80.73273450136183,
+            35.30568283622418
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "marker-color": "#7e7e7e",
+          "marker-size": "medium",
+          "marker-symbol": "",
+          "Title": "Main Entrance"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -80.73220878839493,
+            35.305470512852985
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "marker-color": "#7e7e7e",
+          "marker-size": "medium",
+          "marker-symbol": "",
+          "Title": "Cir. Desk"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -80.7320237159729,
+            35.30560184696276
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "marker-color": "#7e7e7e",
+          "marker-size": "medium",
+          "marker-symbol": "",
+          "Title": "Research Help"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -80.73224633932114,
+            35.30568721401976
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "marker-color": "#7e7e7e",
+          "marker-size": "medium",
+          "marker-symbol": "",
+          "Title": "Stairs"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -80.73199957609177,
+            35.30588202568437
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "marker-color": "#7e7e7e",
+          "marker-size": "medium",
+          "marker-symbol": "",
+          "Title": "Restrooms"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -80.73238044977188,
+            35.305796658832904
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "marker-color": "#7e7e7e",
+          "marker-size": "medium",
+          "marker-symbol": "",
+          "Title": 125
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -80.73262184858322,
+            35.30605932578038
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "marker-color": "#7e7e7e",
+          "marker-size": "medium",
+          "marker-symbol": "",
+          "Title": "Restrooms"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -80.73243409395218,
+            35.30599365912347
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "marker-color": "#7e7e7e",
+          "marker-size": "medium",
+          "marker-symbol": "",
+          "Title": 126
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -80.73250114917755,
+            35.30610967018124
+          ]
+        }
+      }
+    ]
+  }
+}

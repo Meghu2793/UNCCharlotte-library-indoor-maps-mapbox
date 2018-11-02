@@ -5,6 +5,7 @@
     <meta charset='utf-8' />
     <title>Atkins Library Indoor Maps</title>
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.js'></script>
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.css' rel='stylesheet' />
     <link rel="stylesheet" href="css/leaflet.css" />
@@ -15,17 +16,27 @@
 <body>
     <div id='map'></div>
     <div class='map-overlay top'>
-        <div class='map-overlay-inner'>
-            <fieldset>
+        <!-- <div class='map-overlay-inner'> -->
+            <!-- <fieldset> -->
                 <div class='leaflet-bar'>
+                    <a class='floors_navigate' id='0' href='#'>0</a>
                     <a class='floors_navigate' id='1' href='#'>1</a>
                     <a class='floors_navigate' id='2' href='#'>2</a>
-                    <a class='floors_navigate' id='3' href='#'>3</a>
-                    <a class='floors_navigate' id='4' href='#'>4</a>
-                    <a class='floors_navigate' id='5' href='#'>5</a>
-                    <a class='floors_navigate' id='6' href='#'>6</a>
+                    <!-- <a class='floors_navigate' id='3' href='#'>3</a> -->
+                    <!-- <a class='floors_navigate' id='5' href='#'>5</a> -->
                 </div>
-            </fieldset>
+            <!-- </fieldset> -->
+        <!-- </div> -->
+    </div>
+    <div class='map-overlay right'>
+        <div class='map-overlay-inner'>
+            <input type='text' id='searchTerm' />
+            <input type='image' id='search-submit' src='./images/search-icon.png' alt="Submit" width="40" height="40"/>
+        </div>
+    </div>
+    <div class='map-overlay bottom'>
+        <div class='map-overlay-inner'>
+            <p id='floor_name'></p>
         </div>
     </div>
 
@@ -35,4 +46,5 @@
     <script src="js/maps-load.js"> </script>
 
 </body>
+
 </html>

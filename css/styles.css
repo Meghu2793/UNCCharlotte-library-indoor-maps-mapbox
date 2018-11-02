@@ -21,6 +21,8 @@ body {
 
 .floors_navigate {
     width: 35px;
+    color:#A9A9A9 !important;
+    font-weight: bold;
     text-decoration: none;
     display: inherit;
     background: #d5d5d5;
@@ -29,9 +31,20 @@ body {
 
 .leaflet-bar {
     Box-shadow: 0 1px 5px rgba(0, 0, 0, 0.65);
-    border-radius: 4px;
+    border-radius: 0px !important;
     font: 18px "Lucida Console, Monaco, monospace";
-    width: 26px;
+    /* width: 26px; */
+    width: 40px;
+    height: 107px;
+}
+
+.leaflet-bar a, .leaflet-bar a:hover{
+    width: 100%;
+    height: 35px;
+}
+
+.leaflet-bar a:active, .leaflet-bar a:focus{
+    color: black !important;
 }
 
 .map-overlay {
@@ -85,4 +98,49 @@ body {
 
 .map-overlay-inner button:hover {
     box-shadow: inset 0 0 0 3px rgba(0, 0, 0, 0.10);
+}
+
+.map-overlay.bottom{
+    position: absolute;
+    bottom: 0;
+    top:auto;
+    left: 0;
+    width: auto;
+}
+
+#floor_name{
+    font-size: x-large;
+    color: burlywood;
+    font-weight: bold;
+}
+
+.map-overlay.right{
+    position: absolute;
+    top:0;
+    right: 0;
+    left: auto;
+    width: auto;
+}
+/* .map-overlay .map-overlay-inner */
+.right .map-overlay-inner{
+    padding: 5px !important;
+}
+
+#searchTerm{
+    border: none;
+    height: 50px;
+    width: 400px;
+}
+
+#search-submit{
+    vertical-align: middle;
+}
+
+.mapboxgl-marker{
+    color: Orange;
+}
+
+.label{
+    top: 15px;
+    position: fixed;
 }

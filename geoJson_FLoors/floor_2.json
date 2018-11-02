@@ -1,0 +1,606 @@
+{
+  "layer": {
+    "id": "floor_2",
+    "type": "line",
+    "source": {
+      "type": "geojson",
+      "data": {
+        "type": "FeatureCollection",
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+              "type": "LineString",
+              "coordinates": [
+                [
+                  -80.7327264547348,
+                  35.306155636780765
+                ],
+                [
+                  -80.73272377252579,
+                  35.305989281344445
+                ],
+                [
+                  -80.73287397623062,
+                  35.305995848012884
+                ]
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "stroke": "#555555",
+              "stroke-width": 2,
+              "stroke-opacity": 1,
+              "fill": "#555555",
+              "fill-opacity": 0.5,
+              "title": "Area 49 Space Technology"
+            },
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    -80.73271036148071,
+                    35.30595644799421
+                  ],
+                  [
+                    -80.73201835155487,
+                    35.30595644799421
+                  ],
+                  [
+                    -80.73201835155487,
+                    35.306070270218015
+                  ],
+                  [
+                    -80.73271036148071,
+                    35.306070270218015
+                  ],
+                  [
+                    -80.73271036148071,
+                    35.30595644799421
+                  ]
+                ]
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "stroke": "#555555",
+              "stroke-width": 2,
+              "stroke-opacity": 1,
+              "fill": "#555555",
+              "fill-opacity": 0.5,
+              "title": "Tech Desk"
+            },
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    -80.73223829269409,
+                    35.305866703435626
+                  ],
+                  [
+                    -80.73219269514084,
+                    35.305866703435626
+                  ],
+                  [
+                    -80.73219269514084,
+                    35.305947692431914
+                  ],
+                  [
+                    -80.73223829269409,
+                    35.305947692431914
+                  ],
+                  [
+                    -80.73223829269409,
+                    35.305866703435626
+                  ]
+                ]
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "stroke": "#555555",
+              "stroke-width": 2,
+              "stroke-opacity": 1,
+              "fill": "#555555",
+              "fill-opacity": 0.5,
+              "title": "Viz Lab"
+            },
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    -80.73203980922699,
+                    35.30584700339725
+                  ],
+                  [
+                    -80.73191374540329,
+                    35.30584700339725
+                  ],
+                  [
+                    -80.73191374540329,
+                    35.30593674797769
+                  ],
+                  [
+                    -80.73203980922699,
+                    35.30593674797769
+                  ],
+                  [
+                    -80.73203980922699,
+                    35.30584700339725
+                  ]
+                ]
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "stroke": "#555555",
+              "stroke-width": 2,
+              "stroke-opacity": 1,
+              "fill": "#555555",
+              "fill-opacity": 0.5,
+              "title": "Elevator"
+            },
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    -80.73237240314482,
+                    35.30565656944556
+                  ],
+                  [
+                    -80.73231071233748,
+                    35.30565656944556
+                  ],
+                  [
+                    -80.73231071233748,
+                    35.305755069821366
+                  ],
+                  [
+                    -80.73237240314482,
+                    35.305755069821366
+                  ],
+                  [
+                    -80.73237240314482,
+                    35.30565656944556
+                  ]
+                ]
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "stroke": "#555555",
+              "stroke-width": 2,
+              "stroke-opacity": 1,
+              "fill": "#555555",
+              "fill-opacity": 0.5,
+              "title": "Woman's Washroom"
+            },
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    -80.7322946190834,
+                    35.30569159181515
+                  ],
+                  [
+                    -80.73226511478424,
+                    35.30569159181515
+                  ],
+                  [
+                    -80.73226511478424,
+                    35.305744125341086
+                  ],
+                  [
+                    -80.7322946190834,
+                    35.305744125341086
+                  ],
+                  [
+                    -80.7322946190834,
+                    35.30569159181515
+                  ]
+                ]
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "stroke": "#555555",
+              "stroke-width": 2,
+              "stroke-opacity": 1,
+              "fill": "#555555",
+              "fill-opacity": 0.5,
+              "title": "Men's Washroom"
+            },
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    -80.73260307312012,
+                    35.30567845842833
+                  ],
+                  [
+                    -80.7325628399849,
+                    35.30567845842833
+                  ],
+                  [
+                    -80.7325628399849,
+                    35.305744125341086
+                  ],
+                  [
+                    -80.73260307312012,
+                    35.305744125341086
+                  ],
+                  [
+                    -80.73260307312012,
+                    35.30567845842833
+                  ]
+                ]
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "stroke": "#555555",
+              "stroke-width": 2,
+              "stroke-opacity": 1,
+              "fill": "#555555",
+              "fill-opacity": 0.5,
+              "title": "stairs"
+            },
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    -80.73210150003433,
+                    35.305809792200535
+                  ],
+                  [
+                    -80.73205053806304,
+                    35.305809792200535
+                  ],
+                  [
+                    -80.73205053806304,
+                    35.305910481281515
+                  ],
+                  [
+                    -80.73210150003433,
+                    35.305910481281515
+                  ],
+                  [
+                    -80.73210150003433,
+                    35.305809792200535
+                  ]
+                ]
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "stroke": "#555555",
+              "stroke-width": 2,
+              "stroke-opacity": 1,
+              "fill": "#555555",
+              "fill-opacity": 0.5,
+              "title": "Study Carrel "
+            },
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    -80.7320961356163,
+                    35.30554055773806
+                  ],
+                  [
+                    -80.7320049405098,
+                    35.30554055773806
+                  ],
+                  [
+                    -80.7320049405098,
+                    35.305787903253304
+                  ],
+                  [
+                    -80.7320961356163,
+                    35.305787903253304
+                  ],
+                  [
+                    -80.7320961356163,
+                    35.30554055773806
+                  ]
+                ]
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "stroke": "#555555",
+              "stroke-width": 2,
+              "stroke-opacity": 1,
+              "fill": "#555555",
+              "fill-opacity": 0.5,
+              "title": "Library Office"
+            },
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    -80.73161870241165,
+                    35.30552304652248
+                  ],
+                  [
+                    -80.73133170604706,
+                    35.30552304652248
+                  ],
+                  [
+                    -80.73133170604706,
+                    35.305851381183956
+                  ],
+                  [
+                    -80.73161870241165,
+                    35.305851381183956
+                  ],
+                  [
+                    -80.73161870241165,
+                    35.30552304652248
+                  ]
+                ]
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "points": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "marker-color": "#7e7e7e",
+          "marker-size": "medium",
+          "marker-symbol": "",
+          "Title": "Curriculum Instruction Materials Center"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -80.7327988743782,
+            35.30605494800492
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "marker-color": "#7e7e7e",
+          "marker-size": "medium",
+          "marker-symbol": "",
+          "Title": "Library Office"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -80.73143362998962,
+            35.30569815850775
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "marker-color": "#7e7e7e",
+          "marker-size": "medium",
+          "marker-symbol": "",
+          "Title": "Study Carrel"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -80.73205322027206,
+            35.30565438054696
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "marker-color": "#7e7e7e",
+          "marker-size": "medium",
+          "marker-symbol": "",
+          "Title": "stairs"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -80.73208004236221,
+            35.30584919229063
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "marker-color": "#7e7e7e",
+          "marker-size": "medium",
+          "marker-symbol": "",
+          "Title": "Viz Lab"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -80.73198080062866,
+            35.305886403469195
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "marker-color": "#7e7e7e",
+          "marker-size": "medium",
+          "marker-symbol": "",
+          "Title": "Tech Desk"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -80.73221683502197,
+            35.305877647899315
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "marker-color": "#7e7e7e",
+          "marker-size": "medium",
+          "marker-symbol": "",
+          "Title": "Elevator"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -80.73234558105469,
+            35.30569159181515
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "marker-color": "#7e7e7e",
+          "marker-size": "medium",
+          "marker-symbol": "",
+          "Title": "Women's Restroom"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -80.7322758436203,
+            35.305715669685426
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "marker-color": "#7e7e7e",
+          "marker-size": "medium",
+          "marker-symbol": "",
+          "Title": "Men's Restroom"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -80.732581615448,
+            35.305713480788434
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "marker-color": "#7e7e7e",
+          "marker-size": "medium",
+          "marker-symbol": "",
+          "Title": "Teaching & Technology Center"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -80.73266744613647,
+            35.306006792459115
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "marker-color": "#7e7e7e",
+          "marker-size": "medium",
+          "marker-symbol": "",
+          "Title": "Maker Space"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -80.73257088661194,
+            35.306002414680805
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "marker-color": "#7e7e7e",
+          "marker-size": "medium",
+          "marker-symbol": "",
+          "Title": "EZ Video Studio"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -80.73205590248108,
+            35.30600460356999
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "marker-color": "#7e7e7e",
+          "marker-size": "medium",
+          "marker-symbol": "",
+          "Title": "Multi-Media Lab"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -80.73228389024734,
+            35.306015548015026
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "marker-color": "#7e7e7e",
+          "marker-size": "medium",
+          "marker-symbol": "",
+          "Title": "Gaming Lab"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -80.73219001293181,
+            35.305989281344445
+          ]
+        }
+      }
+    ]
+  }
+}
