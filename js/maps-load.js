@@ -1,6 +1,9 @@
 var layerId;
 
 const floor_name = document.getElementById('floor_name');
+const searchSubmit = document.getElementById('search-submit');
+const searchTerm1 = document.getElementById('search-term1');
+const searchTerm2 = document.getElementById('search-term2');
 
 mapboxgl.accessToken = 'pk.eyJ1IjoibWtyaXNoMTIiLCJhIjoiY2ptcnZ1bzY1MjU5cjNxcGRnNzdqdDByNSJ9.1GYPjMumaaupGBDYNovR3A';
 var map = new mapboxgl.Map({
@@ -10,6 +13,7 @@ var map = new mapboxgl.Map({
     zoom: 18
 });
 
+// To display the floor name below
 function nameHeading(layerId) {
     console.log('Layer_Id ', layerId);
     switch (parseInt(layerId)) {
@@ -36,7 +40,7 @@ function nameHeading(layerId) {
     }
 }
 
-function addMarkers(res){
+function addMarkers(res) {
     res.points.features.forEach(function (marker) {
         // create a HTML element for each feature
         // let mainDiv = document.createElement('div');
@@ -53,19 +57,9 @@ function addMarkers(res){
         new mapboxgl.Marker(el)
             .setLngLat(marker.geometry.coordinates)
             .setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
-            .setHTML('<h3>' + marker.properties.Title + '</h3>'))
+                .setHTML('<h3>' + marker.properties.Title + '</h3>'))
             .addTo(map);
     });
-
-    // res.layer.source.data.features.forEach(function (featur){
-    //     var el1 = document.createElement('div');
-    //     // el1.innerText = featur.properties.title;
-    //     el1.style.background = 'red';
-
-    //     new mapboxgl.Marker(el1)
-    //         //.setLngLat(featur.geometry.coordinates[0])
-    //         .addTo(map);
-    // });
 }
 
 map.on('load', function () {
@@ -76,8 +70,48 @@ map.on('load', function () {
         nameHeading(layerId);
         addMarkers(res);
     });
-});
 
+    map.addLayer({
+        "id": "route1",
+        "type": "line",
+        "source": {
+            "type": "geojson",
+            "data": {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                    "type": "LineString",
+                    "coordinates": [
+                        [
+                            -80.73264867067337,
+                            35.30600898134817
+                        ],
+                        [
+                            -80.73265403509139,
+                            35.305866703435626
+                        ],
+                        [
+                            -80.73244750499725,
+                            35.305860136756685
+                        ],
+                        [
+                            -80.73244750499725,
+                            35.305715669685426
+                        ]
+                    ]
+                }
+            }
+        },
+        "layout": {
+            "line-join": "round",
+            "line-cap": "round"
+        },
+        "paint": {
+            "line-color": "#888",
+            "line-width": 8
+        }
+    });
+});
 
 let func = function (e) {
     var id = e.target.id;
@@ -89,19 +123,13 @@ let func = function (e) {
     }
     layerId = id;
     $('.marker').remove();
-    console.log("ID ", id);
+    // console.log("ID ", id);
     $.get(`http://localhost:3000/getGeoJsonFloor/${id}`).then(res => {
         map.addLayer(res.layer);
         nameHeading(layerId);
-        
         addMarkers(res);
     });
     // make an ajax call and replace the exisiting json with new json
-}
-
-let floor_no = document.getElementsByClassName('floors_navigate');
-for (i = 0; i < floor_no.length; i++) {
-    floor_no[i].addEventListener('click', func, false);
 }
 
 function findDistance(dist1, dist2) {
@@ -123,6 +151,24 @@ function findDistance(dist1, dist2) {
     let c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
 
     let d = R * c;
-    console.log("Distance ", d);
+    // console.log("Distance ", d);
 }
+
+// On Click event listener
+let floor_no = document.getElementsByClassName('floors_navigate');
+for (i = 0; i < floor_no.length; i++) {
+    floor_no[i].addEventListener('click', func, false);
+}
+
+searchSubmit.addEventListener('click',function(e){
+    console.log("Coming here");
+    let source_place = searchTerm1.value;
+    let dest_place = searchTerm2.value;
+    console.log("Source ", source_place);
+    console.log("Destination ", dest_place);
+    $.get(`http://localhost:3000/getGeoJsonPath/getRouteId?source=${source_place},
+    destination=${dest_place}`).then(res => {
+        map.addLayer(res);
+    });
+});
 

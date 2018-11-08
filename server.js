@@ -9,6 +9,7 @@ const server = express();
 const cors = require('cors');
 const bodyParser = require("body-parser");
 const floor_plan_json = require('./routes/floor_plan_json');
+const direction_path = require('./routes/directions_json/direction_path_json');
 
 // Body parser middleware
 server.use(bodyParser.urlencoded({ extended: false }));
@@ -16,38 +17,8 @@ server.use(bodyParser.json());
 
 server.use(cors());
 
-server.use('/getGeoJsonFloor',floor_plan_json);
-
-function findWalkTime (d){
-
-}
-
-server.get('/distanceLatLon', (req, res) => {
-    let dist1 = req.body.dist1;
-    let dist2 = req.body.dist2;
-    let lat1 = dist1.lat;
-    let lon1 = dist1.lon;
-
-    let lat2 = dist2.lat;
-    let lon2 = dist2.lon;
-
-    let R = 6371e3;
-    let φ1 = lat1.toRadians();
-    let φ2 = lat2.toRadians();
-    let Δφ = (lat2 - lat1).toRadians();
-    let Δλ = (lon2 - lon1).toRadians();
-
-    let a = Math.sin(Δφ / 2) * Math.sin(Δφ / 2) +
-        Math.cos(φ1) * Math.cos(φ2) *
-        Math.sin(Δλ / 2) * Math.sin(Δλ / 2);
-    let c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
-
-    let d = R * c;
-    let walktime = findWalkTime(d);
-    console.log("Distance ", d);
-
-    res.json(d);
-});
+server.use('/getGeoJsonFloor', floor_plan_json);
+server.use('/getGeoJsonPath', direction_path);
 
 server.listen(port, (err) => {
     if (err) throw err

@@ -1,5 +1,5 @@
 {
-  "id": "route_floor_0",
+  "id": "route1_floor0",
   "type": "line",
   "source": {
     "type": "geojson",
@@ -9,6 +9,8 @@
         {
           "source": "Stairs 1 - Floor 0",
           "destination": "Coffee Vending Machine",
+          "sourcePlace": "cafe",
+          "destPlace": "vending",
           "properties": {},
           "geometry": {
             "type": "LineString",

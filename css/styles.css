@@ -126,10 +126,11 @@ body {
     padding: 5px !important;
 }
 
-#searchTerm{
-    border: none;
-    height: 50px;
+#search-term1, #search-term2{
+    /* border: none; */
+    height: 30px;
     width: 400px;
+    display: block;
 }
 
 #search-submit{

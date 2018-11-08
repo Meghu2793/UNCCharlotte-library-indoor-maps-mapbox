@@ -887,13 +887,13 @@
           ]
         },
         "properties": {
-          "title": "Entrance 1 - floor 0"
+          "Title": "Entrance 1 - floor 0"
         }
       },
       {
         "type": "Feature",
         "properties": {
-          "title": "G 48"
+          "Title": "G 48"
         },
         "geometry": {
           "type": "Point",
@@ -906,7 +906,7 @@
       {
         "type": "Feature",
         "properties": {
-          "title": "Peet's Cafe"
+          "Title": "Peet's Cafe"
         },
         "geometry": {
           "type": "Point",
@@ -919,7 +919,7 @@
       {
         "type": "Feature",
         "properties": {
-          "title": "Stairs 1 - Floor 0"
+          "Title": "Stairs 1 - Floor 0"
         },
         "geometry": {
           "type": "Point",
@@ -932,7 +932,7 @@
       {
         "type": "Feature",
         "properties": {
-          "title": "Stairs 2 - Floor 0"
+          "Title": "Stairs 2 - Floor 0"
         },
         "geometry": {
           "type": "Point",
@@ -945,7 +945,7 @@
       {
         "type": "Feature",
         "properties": {
-          "title": "Graduate Silent Study Room"
+          "Title": "Graduate Silent Study Room"
         },
         "geometry": {
           "type": "Point",
@@ -958,7 +958,7 @@
       {
         "type": "Feature",
         "properties": {
-          "title": "Coffee Vending Machine"
+          "Title": "Coffee Vending Machine"
         },
         "geometry": {
           "type": "Point",

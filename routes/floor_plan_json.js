@@ -7,6 +7,11 @@ const floors2_json = require('../geoJson_FLoors/floor_2.json');
 const floors3_json = require('../geoJson_FLoors/floor_3.json');
 const floors5_json = require('../geoJson_FLoors/floor_5.json');
 
+router.get('/', function(req, res){
+    // List all the floors
+    res.json([floors0_json, floors1_json, floors2_json, floors3_json], floors5_json)
+});
+
 router.get("/0", function (req, res) {
     res.json(floors0_json);
 });
