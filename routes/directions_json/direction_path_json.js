@@ -41,6 +41,12 @@ router.get('/', (req, res)=> {
     console.log("List all the routes");
 });
 
+router.get('/getAllLayer/:floor_no', (req, res) => {
+let floor_no = req.params.floor_no
+// console.log("COming");
+res.send(path_1);
+
+});
 // router.get('/distanceLatLon', (req, res) => {
 //     console.log("check this IMP", req.query);
 //     res.send(calculateDistance(req.query));

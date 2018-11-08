@@ -17,28 +17,38 @@
     <div id='map'></div>
     <div class='map-overlay top'>
         <!-- <div class='map-overlay-inner'> -->
-            <!-- <fieldset> -->
-                <div class='leaflet-bar'>
-                    <a class='floors_navigate' id='0' href='#'>0</a>
-                    <a class='floors_navigate' id='1' href='#'>1</a>
-                    <a class='floors_navigate' id='2' href='#'>2</a>
-                    <!-- <a class='floors_navigate' id='3' href='#'>3</a> -->
-                    <!-- <a class='floors_navigate' id='5' href='#'>5</a> -->
-                </div>
-            <!-- </fieldset> -->
+        <!-- <fieldset> -->
+        <div class='leaflet-bar'>
+            <a class='floors_navigate' id='0' href='#'>0</a>
+            <a class='floors_navigate' id='1' href='#'>1</a>
+            <a class='floors_navigate' id='2' href='#'>2</a>
+            <!-- <a class='floors_navigate' id='3' href='#'>3</a> -->
+            <!-- <a class='floors_navigate' id='5' href='#'>5</a> -->
+        </div>
+        <!-- </fieldset> -->
         <!-- </div> -->
     </div>
     <div class='map-overlay right'>
         <div class='map-overlay-inner'>
-            <input type='text' id='search-term1' placeholder="from:"/>
-            <input type='text' id='search-term2' placeholder="to:"/>
-            <input type='image' id='search-submit' src='./images/search-icon.png' alt="Submit" width="40" height="40" value="Get Path"/>
+            <input type='text' id='search-term1' placeholder="from:" />
+            <input type='text' id='search-term2' placeholder="to:" />
+            <input type='image' id='search-submit' src='./images/search-icon.png' alt="Submit" width="40" height="40" value="Get Path"
+            />
         </div>
 
     </div>
     <div class='map-overlay bottom'>
         <div class='map-overlay-inner'>
             <p id='floor_name'></p>
+        </div>
+    </div>
+
+    <div class="mapboxgl-ctrl-bottom-right">
+        <div class="bottom_right">
+            <p class="pathLabel">Distance: 10 meters</p>
+        </div>
+        <div class="bottom_right">
+            <p class="pathLabel">Time: 50seconds </p>
         </div>
     </div>
 

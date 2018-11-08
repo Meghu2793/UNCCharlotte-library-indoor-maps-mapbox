@@ -1,40 +1,82 @@
-{
-  "id": "route1_floor0",
-  "type": "line",
-  "source": {
-    "type": "geojson",
-    "data": {
-      "type": "FeatureCollection",
-      "features": [
-        {
-          "source": "Stairs 1 - Floor 0",
-          "destination": "Coffee Vending Machine",
-          "sourcePlace": "cafe",
-          "destPlace": "vending",
-          "properties": {},
-          "geometry": {
-            "type": "LineString",
-            "coordinates": [
-              [
-                -80.73264867067337,
-                35.30600898134817
-              ],
-              [
-                -80.73265403509139,
-                35.305866703435626
-              ],
-              [
-                -80.73244750499725,
-                35.305860136756685
-              ],
-              [
-                -80.73244750499725,
-                35.305715669685426
-              ]
+[
+  {
+    "id": "cafe_stairs1_route1",
+    "type": "line",
+    "source": {
+      "type": "geojson",
+      "data": {
+        "type": "Feature",
+        "source": "Stairs 1 - Floor 0",
+        "destination": "Coffee Vending Machine",
+        "sourcePlace": "cafe",
+        "destPlace": "vending",
+        "distance": "",
+        "time": "",
+        "properties": {},
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -80.73264867067337,
+              35.30600898134817
+            ],
+            [
+              -80.73265403509139,
+              35.305866703435626
+            ],
+            [
+              -80.73244750499725,
+              35.305860136756685
+            ],
+            [
+              -80.73244750499725,
+              35.305715669685426
             ]
-          }
+          ]
         }
-      ]
+      }
+    },
+    "layout": {
+      "line-join": "round",
+      "line-cap": "round"
+    },
+    "paint": {
+      "line-color": "#888",
+      "line-width": 8
+    }
+  },
+  {
+    "id": "cafe_stairs2_route1",
+    "type": "line",
+    "source": {
+      "type": "geojson",
+      "data": {
+        "type": "Feature",
+        "source": "Peetes Cafe",
+        "destination": "Stairs 2 - Floor 0",
+        "sourcePlace": "Peetes Cafe",
+        "destPlace": "Stairs 2 - Floor 0",
+        "distance": "",
+        "time": "",
+        "properties": {},
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              -80.73269695043564,
+              35.305702536302526
+            ],
+            [
+              -80.7327076792717,
+              35.30584481450379
+            ],
+            [
+              -80.73146313428879,
+              35.305763825404505
+            ]
+          ]
+        }
+      }
     },
     "layout": {
       "line-join": "round",
@@ -45,4 +87,4 @@
       "line-width": 8
     }
   }
-}
+]

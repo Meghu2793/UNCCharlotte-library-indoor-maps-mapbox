@@ -71,6 +71,12 @@ map.on('load', function () {
         addMarkers(res);
     });
 
+    $.get('http://localhost:3000/getGeoJsonPath/getAllLayer/0').then(res => {
+        res.forEach(function(eLayer) {
+            map.addLayer(eLayer);
+        });
+    });
+
     map.addLayer({
         "id": "route1",
         "type": "line",
@@ -160,7 +166,7 @@ for (i = 0; i < floor_no.length; i++) {
     floor_no[i].addEventListener('click', func, false);
 }
 
-searchSubmit.addEventListener('click',function(e){
+searchSubmit.addEventListener('click', function (e) {
     console.log("Coming here");
     let source_place = searchTerm1.value;
     let dest_place = searchTerm2.value;
@@ -168,7 +174,7 @@ searchSubmit.addEventListener('click',function(e){
     console.log("Destination ", dest_place);
     $.get(`http://localhost:3000/getGeoJsonPath/getRouteId?source=${source_place},
     destination=${dest_place}`).then(res => {
-        map.addLayer(res);
-    });
+            map.addLayer(res);
+        });
 });
 
